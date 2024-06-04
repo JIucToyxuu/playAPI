@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
   def message
-    render json: { message: "This is message from RoR server", sent_at: Time.now.to_i }
+    render json: { text: "This is message from RoR server", sent_at: Time.now.to_i }
   end
 end
